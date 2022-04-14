@@ -1,0 +1,134 @@
+/* <!-- DO NOT USE <STYLE> --> */
+
+
+
+
+/* always start from top to bottom when styling */
+body{
+background-image: url(pictures/sky.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+color: black;
+}
+
+h1 {
+   color:black;
+   font-size: 40px;
+   text-align: center;
+   font-family: 'Playfair Display', serif;
+   background-color:whitesmoke;
+   box-sizing: border-box;
+   width: 600px;
+   padding: 25px; 
+   border: 1px solid black;
+   margin: 0;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+
+}
+
+.table > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .navbar > div {
+    background-color: pink;
+    color: black;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    text-decoration: none;
+    flex-wrap: wrap;
+    border: 1px solid black;
+
+}
+  
+a:link,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+h2 {
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    background-color:pink;
+    width: 600px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 0;
+}
+
+
+p {
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    background-color:pink; 
+    width: 600px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+      
+}
+
+img{
+    max-width: 70%;
+    height: 350px;
+    width: 300px;
+    border: 1px solid black;
+    
+ }
+
+ .container {
+    display: flex;
+    min-height: 200vh;
+    flex-direction: row;
+}
+
+.heading3 {
+    display:flex;
+    flex-direction: center;
+    align-items: baseline;
+    justify-content: space-evenly;
+    color: black;
+    font-size: 25px;
+    text-align: match-parent;
+    font-family: 'Playfair Display', serif;
+    background-color: pink;
+    width: 600px;
+     padding: 25px; 
+    border: 1px solid black;
+     margin: 0; 
+
+     box-sizing: border-box; 
+}
+.centercontainer {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+/* H1 is changing the style for the h1 section in the html bit/*
