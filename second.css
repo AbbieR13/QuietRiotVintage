@@ -43,3 +43,8 @@ h1 {
     margin: 0;
  }
 
+ .centercontainer {
+   display:flex;
+   flex-direction:column;
+   align-items: center;
+}
