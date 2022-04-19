@@ -1,59 +1,38 @@
-/* <!-- DO NOT USE <STYLE> --> */
+/* Style the navigation bar links */
 
-
-
-
-/* always start from top to bottom when styling */
 body{
-background-image: url(pictures/sky.jpeg);
-background-repeat: no-repeat;
-background-size: cover;
-color: black;
-}
+    background-image: url(pictures2.0/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    }
 
-h1 {
-   color:black;
-   font-size: 40px;
-   text-align: center;
-   font-family: 'Playfair Display', serif;
-   background-color:whitesmoke;
-   box-sizing: border-box;
-   width: 600px;
-   padding: 25px; 
-   border: 1px solid black;
-   margin: 0;
-}
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
 
-.heading{
-    display: flex;
-    justify-content: center;
-
-}
-
-.table > div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
-.navbar {
+.navbar a {
+    color: white;
+    padding: 19px;
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 377.32px;
+    margin: 0px;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-  }
-  
-  .navbar > div {
-    background-color: pink;
-    color: black;
-    width: 350px;
-    margin: 10px;
-    text-align: center;
-    line-height: 20px;
-    font-size: 18px;
-    text-decoration: none;
+    font-family: 'Playfair Display', monospace;
+    align-items: flex-start;
+    justify-content: center;
     border: 1px solid black;
-
+    font-weight: bold;
 }
   
 a:link,
@@ -61,79 +40,82 @@ a:visited,
 a:active {
   text-decoration: none;
   color: inherit;
-}
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: pink;
+    color: black;
+  }
 
-.navbar :hover{
+
+    
+    @media screen and (max-width: 700px) {
+        .row .navbar {   
+          flex-direction: row;
+        }
+      }
+
+
+      h1 {
+        color:black;
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Playfair Display', monospace;
+        background-color: pink;
+        box-sizing: border-box;
+        width: 600px;
+        padding: 25px; 
+        border: 1px solid black;
+        margin: 0;
+     }
+     
+     .heading{
+         display: flex;
+         justify-content: center;
+     
+     }
+
+     /* Column container */
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  /* Sidebar/left column */
+  .side {
+    flex: 30%;
+    background-color: pink;
+    padding: 20px;
+    border: 1px solid black;
+    font-family: 'Playfair Display', monospace;
+  }
+  /* Main column */
+.main {
+    flex: 70%;
     background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    font-family: 'Playfair Display', monospace;
+  }
+  /* image */
+.img {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid black;
 }
 
 h2 {
-    color:black;
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-    background-color:pink;
-    width: 600px;
-    padding: 10px;
-    border: 1px solid black;
-    margin: 0;
+   font-size: 30px;
+   text-decoration-line: underline;
 }
-
 
 p {
-    color:black;
-    font-size: 20px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    font-size: 18px;
     text-align: center;
-    font-family: 'Playfair Display', serif;
-    background-color:pink; 
-    width: 600px;
-    padding: 10px;
-    border: 1px solid black;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-      
 }
 
-img{
-    max-width: 70%;
-    height: 300px;
-    width: 350px;
-    border: 1px solid black;
-    
- }
-
-
-
- .container {
-    display: flex;
-    min-height: 200vh;
-    flex-direction: row;
-}
-
-.heading3 {
-    display:flex;
-    flex-direction: center;
-    align-items: baseline;
-    justify-content: space-evenly;
-    color: black;
-    font-size: 25px;
-    text-align: match-parent;
-    font-family: 'Playfair Display', serif;
-    background-color: pink;
-    width: 600px;
-     padding: 25px; 
-    border: 1px solid black;
-     margin: 0; 
-
-     box-sizing: border-box; 
-}
-.centercontainer {
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-/* H1 is changing the style for the h1 section in the html bit/*
